@@ -38,3 +38,5 @@ The function responsible for the majority of the program: Collecting the require
 After inserting all the data, it must be graphed. And the function saveDateGraph does the job of taking data from tables and graphing the currency values wrt time.
 
 Only after all this, will the output page load, with the requested graphs, load for the user, and that is the end of my project.
+
+In this repo, you will find the source code for the Python part, which incorporates the API calls, SQL calls through the connector, the graphing and the flask parts. Since SQL requires a password, I've only implemented it in my own device, which means you can't expect it to run on your website, but if you change the password in the code, it should run fine. I have also attached the images of how data is actually represented in the website
