@@ -1,6 +1,8 @@
 # currency-tracker
 Displaying currency exchange rates in an interactive manner
 
+## Note : The details that allow you to connect to your local SQL servers should be modified, as here I've specified the details to my own local SQL server, you will need to change the details to allow the Python code access into your SQL server.
+
 This is a school project, so forgive the long and irrelevant explanations :)
 
 My project is titled "API based Currency Tracker". The project takes real(live) time data regarding the exchange rates of all the currencies by using an API provided by a certain site. It then parses the data and stores it into the SQL database. It then creates graphs based on the recent trends of values and also creates a local page for the display of the output, which is based on what the user has searched for.
